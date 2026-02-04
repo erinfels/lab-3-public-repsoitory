@@ -1,0 +1,52 @@
+/*.Right class and the position line in written from Claude, sent a picture of my own resume that has words pushed all the way to the right and asked if that was possible and how to do it and why it works */
+h1 {
+    font-size: 60px;
+}
+.content {
+    font-family: serif;
+    background-color: #E6F3F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;    
+    min-height: 100vh;
+    margin: 10px 300px 100px;
+}
+@media (min-width: 768px) {
+    .content {
+        margin: 10px 100px 100px; /* Medium screens */
+    }
+}
+
+@media (min-width: 1200px) {
+    .content {
+        margin: 10px 300px 100px; /* Your original large margins */
+    }
+}
+.words {
+    font-family: serif;
+    background-color: #E6F3F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: left; 
+    line-height: .6;
+    position: relative;
+}
+@media (min-width: 768px) {
+    .words {
+        line-height: .6; /* More breathing room on larger screens */
+    }
+}
+.list {
+    list-style-type: circle;
+    list-style-position: outside;
+    margin-top: -7px;
+}
+
+.list li {
+    display: list-item;
+    line-height: 1.2;
+}
+.right {
+    float: right;
+}
+

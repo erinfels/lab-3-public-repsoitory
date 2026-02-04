@@ -1,0 +1,119 @@
+<!-- Structure made from sentence prompt given in lab 3 -->
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="../resources/css/style.css">
+</head>
+<!-- Consulted chat and said to add this link to get the bootstrap version 5 to work with the accordians better -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Erin Fels</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              <a class="nav-link" href="hobbies.html">Hobbies</a>
+              <a class="nav-link" href="projects.html">Projects</a>
+            </div>
+          </div>
+        </div>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="https://as2.ftcdn.net/v2/jpg/05/33/17/87/1000_F_533178753_ASLNL6D0VchJdgnxPJYq4fQ4ePeFHGWv.webp" alt="Logo" width="30" height="24" style="float:right">
+              </a>
+            </div>
+          </nav>
+    </nav>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#collapseOne" 
+                    aria-expanded="true" 
+                    aria-controls="collapseOne">
+              Ride Engineering Competition
+            </button>
+          </h2>
+      
+          <div id="collapseOne" 
+               class="accordion-collapse collapse show" 
+               aria-labelledby="headingOne" 
+               data-bs-parent="#accordionExample">
+            <div class="accordion-body d-flex gap-3 align-items-start">
+              <img src="RECGroupPic.JPG" class="img-fluid" style="width: 20%;" alt="Ride Engineering Competition group photo">
+              <div>
+                <strong>Our ride for the Ride Engineering Competition</strong><br>
+                We created a dual swinging pendulum ride called <em>Chrono Clash</em>. 
+                I worked on the theming and electronic components of the ride.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#collapseTwo" 
+                    aria-expanded="false" 
+                    aria-controls="collapseTwo">
+              Escape Room Puzzle
+            </button>
+          </h2>
+      
+          <div id="collapseTwo" 
+               class="accordion-collapse collapse" 
+               aria-labelledby="headingTwo" 
+               data-bs-parent="#accordionExample">
+            <div class="accordion-body d-flex gap-3 align-items-start">
+              <img src="EscapeRoomPuzzle.jpeg" class="img-fluid" style="width: 20%;" alt="Escape room puzzle">
+              <div>
+                <strong>Escape Room Project</strong><br>
+                I worked on an escape room puzzle with RFID tags for my physical computing class called Object. When all 3 tags are placed on in the right order, the box will open.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#collapseThree" 
+                    aria-expanded="false" 
+                    aria-controls="collapseThree">
+              Graphic Design Work
+            </button>
+          </h2>
+      
+          <div id="collapseThree" 
+               class="accordion-collapse collapse" 
+               aria-labelledby="headingThree" 
+               data-bs-parent="#accordionExample">
+            <div class="accordion-body d-flex gap-3 align-items-start">
+              <img src="GraphicDesignWork.jpeg" class="img-fluid" style="width: 20%;" alt="Project image">
+              <div>
+                <strong>My Graphic Design work from my class.</strong><br>
+                We were instructed to find and pick a design and then create an accordian book that included only font and lines, while trying convey the message of any lyrics in the song.
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>   
+    <footer class="bg-dark text-white fixed-bottom p-3">
+        <div class="container text-center">
+            <a href="https://www.linkedin.com/in/erin-fels-a0891632b/" class="btn btn-outline-light">LinkedIn</a>
+        </div>
+      </footer>   
+</body>
+</html>

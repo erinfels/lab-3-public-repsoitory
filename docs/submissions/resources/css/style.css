@@ -7,3 +7,7 @@ body {
     background-color: #E6F3F8; /* Hex color code for a light gray background */
     padding-bottom: 300px;
   }
+  .container {
+    padding-bottom: 150px;
+    margin-bottom: 100px;
+}

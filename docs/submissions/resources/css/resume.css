@@ -2,6 +2,9 @@
 h1 {
     font-size: 60px;
 }
+.body{
+    background-color: #E6F3F8;
+}
 .content {
     font-family: serif;
     background-color: #E6F3F8;

@@ -9,7 +9,7 @@ h1 {
     flex-direction: column;
     justify-content: left;    
     min-height: 100vh;
-    margin: 10px 300px 100px;
+    margin: 10px 20px 100px;
 }
 @media (min-width: 768px) {
     .content {
